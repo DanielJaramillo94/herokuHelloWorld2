@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php
- if(isset($_GET['nombre'])) {
+ if(isset($_GET['name'])) {
     echo '¡Hola '.$_GET['name'].'!';
  } else {
     echo '¡Hola, persona de nombre desconocido!';
